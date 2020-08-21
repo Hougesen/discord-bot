@@ -1,5 +1,5 @@
 # discord-bot
-A simple Discord bot made in Ruby. 
+Discord bot made for a private Discord server.
 
 The purpose of the Discord bot is to provide extra utility to our Discord server by providing a range of commands that are relevant to it. 
 
