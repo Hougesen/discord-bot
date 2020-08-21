@@ -89,11 +89,11 @@ end
 
 # Github
 bot.command :github do
-  "https://github.com/Hougesen/projekt7"
+  'https://github.com/Hougesen/projekt7'
 end
 
-bot.command :testserver do 
-  "http://projekt7.mhouge.dk"
+bot.command :testserver do
+  'http://projekt7.mhouge.dk'
 end
 
 # Trello
@@ -123,4 +123,3 @@ bot.command :stop do
 end
 
 bot.run
-
