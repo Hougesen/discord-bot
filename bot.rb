@@ -33,11 +33,11 @@ bot.command(:lodtrækning, min_args: 0, max_args: 2, usage: 'lodtrækning [antal
   if antal
     case antal.to_s.downcase
     when 'ui'
-      personer_ui = %w[Mads Abdul Khalid]
-      return personer_ui[rand(3).floor].to_s
-    when 'content'
-      personer_ui = %w[Sebastian Krogh]
+      personer_ui = %w[Mads Abdul]
       return personer_ui[rand(2).floor].to_s
+    when 'content'
+      personer_content = ["Sebastian", "Niklas", "Khalid"]
+      return personer_content[rand(3).floor].to_s
     when '1'
       return (navne[rand(5).floor]).to_s
     when '2'
