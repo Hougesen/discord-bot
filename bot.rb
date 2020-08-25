@@ -103,7 +103,7 @@ end
 
 # Drive
 bot.command :drive do
-  'https://drive.google.com/'
+  'https://docs.google.com/document/d/1Lb_ESHR7rBJh-NftrpvVPpXDCwiLKbaQb-8EaWRkYyw/edit?usp=sharing'
 end
 
 # Skema
