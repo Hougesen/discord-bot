@@ -14,7 +14,6 @@
 
 require 'discordrb'
 require 'dotenv/load'
-require 'git'
 
 
 bot = Discordrb::Commands::CommandBot.new token: ENV['TOKEN'], prefix: '!'
