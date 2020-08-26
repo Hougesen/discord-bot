@@ -14,6 +14,8 @@
 
 require 'discordrb'
 require 'dotenv/load'
+require 'git'
+
 
 bot = Discordrb::Commands::CommandBot.new token: ENV['TOKEN'], prefix: '!'
 
@@ -87,6 +89,11 @@ bot.command(:lodtrækning, min_args: 0, max_args: 2, usage: 'lodtrækning [antal
   end
 end
 
+bot.command :updatetestserver do 
+system("cd && cd projekt7/src && git pull")
+return "Test serveren er blevet opdatet"
+
+end
 # Github
 bot.command :github do
   'https://github.com/Hougesen/projekt7'
