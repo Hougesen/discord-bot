@@ -89,7 +89,7 @@ bot.command(:lodtrækning, min_args: 0, max_args: 2, usage: 'lodtrækning [antal
 end
 
 bot.command :updatetestserver do 
-system("cd && ls -a")
+system("cd && ls -a && pwd")
 return "Test serveren er blevet opdatet"
 
 end
