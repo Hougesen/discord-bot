@@ -88,11 +88,6 @@ bot.command(:lodtrækning, min_args: 0, max_args: 2, usage: 'lodtrækning [antal
   end
 end
 
-bot.command :updatetestserver do 
-system("cd && cd .. && ls -a &&  pwd")
-return "Test serveren er blevet opdatet"
-
-end
 # Github
 bot.command :github do
   'https://github.com/Hougesen/projekt7'
