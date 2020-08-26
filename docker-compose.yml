@@ -6,3 +6,8 @@ services:
     working_dir: /usr/app/
     volumes:
       - ./:/usr/app/
+    networks:
+      - projekt7_network
+networks:
+  projekt7_network:
+    external: true
