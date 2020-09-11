@@ -15,7 +15,6 @@
 require 'discordrb'
 require 'dotenv/load'
 
-
 bot = Discordrb::Commands::CommandBot.new token: ENV['TOKEN'], prefix: '!'
 
 # Plat eller krone
@@ -93,8 +92,14 @@ bot.command :github do
   'https://github.com/Hougesen/projekt7'
 end
 
+# Testserver
 bot.command :testserver do
-  'http://projekt7.mhouge.dk'
+  'http://164.90.237.227/'
+end
+
+# PhpMyAdmin
+bot.command :phpmyadmin do
+  'http://164.90.237.227:8000'
 end
 
 # Trello
